@@ -20,6 +20,7 @@ document.querySelector('#submit').addEventListener('click', function() {
         innerDiv.style = colorList[numKey];
         innerDiv.innerHTML = (listKey + 1) + '. ' + inputValue;
         document.querySelector('#listKey').appendChild(innerDiv);
+        innerDiv.appendChild(aKey);
         document.querySelector('#listText').value = '';
         if (numKey < 5) {
             numKey++;
@@ -28,4 +29,9 @@ document.querySelector('#submit').addEventListener('click', function() {
         }
         listKey++;
     }
+})
+
+document.querySelector('#reset').addEventListener('click', function() {
+    document.querySelector('#listKey').innerHTML = '';
+    numKey = 0;
 })
