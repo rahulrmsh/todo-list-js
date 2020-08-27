@@ -21,9 +21,8 @@ document.querySelector('#submit').addEventListener('click', function () {
     innerDiv.className = 'container-md themed-container text-muted';
     innerDiv.id = listKey;
     innerDiv.style = colorList[numKey];
-    innerDiv.innerHTML = listKey + 1 + '. ' + inputValue;
+    innerDiv.innerHTML = listKey + 1 + '.\t' + inputValue;
     document.querySelector('#listKey').appendChild(innerDiv);
-    innerDiv.appendChild(aKey);
     document.querySelector('#listText').value = '';
 
     if (numKey < 5) {
