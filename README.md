@@ -1,4 +1,4 @@
-# todo-list-js
+# Todo List (js)
 
 | Home |
 | --- | 
