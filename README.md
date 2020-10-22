@@ -1,4 +1,5 @@
-# Todo List (js)
+# Todo List 
+A Todo list made using JavaScript.
 
 | Home |
 | --- | 
