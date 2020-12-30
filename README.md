@@ -1,5 +1,5 @@
 # Todo List 
-A Simple Todo list made using JavaScript.
+A simple to-do list made using JavaScript.
 
 | Home |
 | --- | 
